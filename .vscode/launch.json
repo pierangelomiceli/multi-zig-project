@@ -1,0 +1,26 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Zig Project (LLDB)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/${input:targetProject}/zig-out/bin/${input:targetProject}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "build-zig-dynamic",
+      "env": {}
+    }
+  ],
+  "inputs": [
+    {
+      "id": "targetProject",
+      "type": "pickString",
+      "description": "DEBUG: Choose project to debug...",
+      "options": ["project1", "project2"],
+      "default": "project1"
+    }
+  ]
+}
