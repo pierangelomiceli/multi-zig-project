@@ -1,3 +1,8 @@
+![Zig](https://img.shields.io/badge/lang-Zig-f7a41d)
+![VSCode](https://img.shields.io/badge/editor-VS%20Code-007acc)
+![LLDB](https://img.shields.io/badge/debugger-LLDB-FF6F61)
+
+
 
 # ⚡ Zig + VS Code Multi-Project Debug Setup
 
